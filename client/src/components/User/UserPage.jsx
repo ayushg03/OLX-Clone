@@ -36,7 +36,7 @@ function UserPage(props) {
     handleRerender();
 
     try {
-      const res = await fetch('/buy-item', {
+      const res = await fetch('https://nice-cyan-coypu-coat.cyclic.app/buy-item', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
