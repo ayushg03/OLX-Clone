@@ -27,7 +27,7 @@ function ListNewItem(props) {
     props.onTap();
 
     try {
-      const res = await fetch('/new-item', {
+      const res = await fetch('https://nice-cyan-coypu-coat.cyclic.app/new-item', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
