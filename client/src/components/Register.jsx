@@ -19,7 +19,7 @@ function Register(props) {
     e.preventDefault();
     props.onRegister();
     try {
-      const res = await fetch('https://nice-cyan-coypu-coat.cyclic.app/register', {
+      const res = await fetch('https://odd-cyan-agouti-toga.cyclic.app/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
