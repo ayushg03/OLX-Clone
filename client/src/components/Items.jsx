@@ -6,7 +6,7 @@ function Items(props) {
 
   useEffect(() => {
     async function getItemsData() {
-      await fetch(`https://nice-cyan-coypu-coat.cyclic.app/api`)
+      await fetch(`https://odd-cyan-agouti-toga.cyclic.app/api`)
         .then((res) => res.json())
         .then((data) => setItemData(data));
 
